@@ -1,0 +1,45 @@
+
+.login__hero{
+    width: 80%;
+    height: 700px;
+display: flex;
+margin-top: 100px;
+}
+.login__img{
+height: auto;
+display: block;
+justify-content: center;
+align-items: center;
+}
+.login__input{
+    margin-top: 170px;
+    width: 50%;
+    /* display: block; */
+margin-left: 90px;
+
+}
+.form{
+    /* display: block; */
+
+    input {
+        display: block;
+        width: 350px;
+        height: 60px;
+        margin-top: 20px;
+        border: none;
+        border-bottom: solid 2px black;
+    }
+    button:hover {
+  background-color: #db4444;
+}
+   button{
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+   }
+   a{
+    margin-left: 30px;
+   }
+}
